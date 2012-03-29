@@ -20,14 +20,9 @@ alias      ls='ls -alFG'
 export LC_ALL=de_DE.UTF-8
 
 
-# MySQL path on OS X
-if [ -x /usr/local/mysql/bin ]; then
-  PATH="/usr/local/mysql/bin:${PATH}"
-  # Aliases
-  alias  mysql_stop="sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
-  alias mysql_start="sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
-  alias  dedrm_epub="aineptepub.py ~/Dropbox/Documents/adeptkey.der"
-fi
+# Aliases
+alias dnsflush="sudo killall -HUP mDNSResponder"
+alias  dedrm_epub="aineptepub.py ~/Dropbox/Documents/adeptkey.der"
 
 
 # enable bash 4 recursive globbing
