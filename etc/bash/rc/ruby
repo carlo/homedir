@@ -2,8 +2,6 @@
 #
 # Ruby specific settings
 
-eval "$(rbfu --init --auto)"
-
 export RI="--format bs"
 export RUBYOPT=rubygems
 
@@ -12,3 +10,6 @@ if [ "`gem list | grep hanna`" ]; then
 else
   export RDOCOPT="-S -f html"
 fi
+
+[ -d "$HOME/.rbfu" ] && eval "$($HOME/.rbfu/init.sh)"
+command -v rbfu &>/dev/null && rbfu 1.9.3

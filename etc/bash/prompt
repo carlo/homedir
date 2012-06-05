@@ -1,5 +1,5 @@
 # ~/etc/bash/prompt
-# 
+#
 # set the prompt (should be done as late as possible)
 
 case $HOST in
@@ -42,7 +42,7 @@ PS1="${titlebar}${PS1}"
 
 
 # append git branch
-PS1="\n$PS1${pcyan}\$(__git_ps1)${pwhite}\n➜ "
+PS1="\n$PS1${pcyan}\$(__git_ps1)${pwhite}\n❯ "
 
 # append dollar sign
-# PS1="$PS1 \$ 
+# PS1="$PS1 \$

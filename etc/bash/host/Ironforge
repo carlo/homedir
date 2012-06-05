@@ -1,17 +1,6 @@
-# ~/etc/bash/host/Rupert
-
-[ -x ${HOME}/bin/textmate ]     && export VISUAL="${HOME}/bin/textmate"
-
-alias gocp="cd ~/Code/wow-charpool/";
+# ~/etc/bash/host/Ironforge
 
 alias dh="ssh pjg@zottmann.org";
-alias dhbs="ssh cgi_bettersearch@zottmann.org";
-alias teldrassil="ssh carlo_teldrassil@ssh.phx.nearlyfreespeech.net";
-alias hezo="ssh zottmann@87.230.19.4";
-alias hero="ssh root@87.230.19.4";
-alias aso="ssh carlo@isabel.asmallorange.com";
-
-alias cpcilo="cp /Users/Carlo/Games/World\ of\ Warcraft/Interface/Cilo.tga /Users/Carlo/Games/World\ of\ Warcraft/Interface/AddOns/PitBull/"
 
 alias mysql_stop="sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
 alias mysql_start="sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist"

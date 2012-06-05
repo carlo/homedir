@@ -2,6 +2,8 @@
 #
 # Javascript specific settings
 
+export NODE_PATH=/usr/local/lib/node_modules:$HOME/.node_libraries
+
 if [[ -x "/usr/local/bin/node" ]]; then
   alias jsbeautify="/usr/local/bin/node $HOME/bin/beautify-node.js"
 else
