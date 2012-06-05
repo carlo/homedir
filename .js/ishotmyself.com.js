@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $("a[href^='javascript:popupLandscape']").each( function( i, e ) {
   var elem = $(e);
 
@@ -22,12 +21,3 @@ $("#showfullsize").click( function(evt) {
 
   $("body").html(output);
 });
-
-=======
-$("a[href^='javascript:popupLandscape']").each( function( i, elem ) {
-  var a = $(elem),
-    href = a.attr("href");
-
-  a.attr( "href", href.replace( /^.*'(.+)'.*$/, "$1" ) );
-});
->>>>>>> 485ee50fa5d5ef84ecff05b6db2741b09a2d5d20
