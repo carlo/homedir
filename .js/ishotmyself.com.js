@@ -5,7 +5,7 @@ $("a[href^='javascript:popupLandscape']").each( function( i, e ) {
 });
 
 $("#gallerypage .heading").append(
-  "<a href='#' id='showfullsize' style='float: right'>ISM all</a>"
+  "<a href='#' id='showfullsize' style='float: right'>Show fullsize images</a>"
 );
 
 $("#showfullsize").click( function(evt) {
